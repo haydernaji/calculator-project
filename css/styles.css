@@ -1,0 +1,56 @@
+
+
+.calculator {
+  margin: 0 auto;
+  text-align: center;
+  width: 50%;
+  height: 400px;
+}
+
+.inner-btns {
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+}
+
+.num, .decimal, .equals {
+  background-color: green;
+}
+
+.btn {
+  border: 1px solid white;
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 40px;
+  padding: 20px;
+  flex:1;
+  flex-basis:25%;
+}
+
+.output-row {
+  background-color: green;
+  display: flex;
+}
+
+.result-box {
+  flex:64;
+  background-color: green;
+}
+
+.operator {
+  background-color: green;
+}
+
+.clear {
+  background-color: green;
+}
+.clear:hover {
+  background-color: green;
+}
+.calculator {
+    width: 60%;
+    height:200px;
+  }
+  .btn {
+    flex-basis: 25%;
+  }
